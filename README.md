@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Personal Expense Tracker
 
 ### Team Members (Group P3124):
