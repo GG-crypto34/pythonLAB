@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Expense Tracker
 
 ### Team Members (Group P3124):
@@ -20,3 +21,8 @@ A web application for tracking personal expenses, managing users, and generating
 - **Framework:** Flask
 - **Database:** SQLite + SQLAlchemy
 - **Methodology:** Git Flow
+=======
+1)Фреймворк: Flask
+2)Методология: Git Flow
+3)состав команды(на момент 20.12.25): Зайцев Владимир P3124, Чы Нгок Чыонг P3124, Ислам Азайзия P3124
+>>>>>>> 052f033104b72465173297812dd94c6221a41a35
