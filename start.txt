@@ -1,2 +1,0 @@
-bash set FLASK_APP=wsgi.py 
-bash flask run
