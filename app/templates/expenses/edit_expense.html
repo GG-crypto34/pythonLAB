@@ -1,0 +1,21 @@
+<h2>Edit expense</h2>
+
+<form method="post">
+  <input name="category" value="{{ expense.category }}" required>
+
+  <input name="amount" type="number" step="0.01"
+         value="{{ expense.amount }}" required>
+
+  <input name="date" type="date"
+         value="{{ expense.date.strftime('%Y-%m-%d') }}" required>
+
+  <input name="comment" value="{{ expense.comment or '' }}">
+
+  <select name="payment_method">
+    <option value="cash" {% if expense.payment_method == 'cash' %}selected{% endif %}>Cash</option>
+    <option value="card" {% if expense.payment_method == 'card' %}selected{% endif %}>Card</option>
+    <option value="other" {% if expense.payment_method == 'other' %}selected{% endif %}>Other</option>
+  </select>
+
+  <button>Save</button>
+</form>
